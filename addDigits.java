@@ -1,5 +1,12 @@
-class Solution {
-    public int addDigits(int n) {
+public class addDigits {
+
+    public static void main(String[] args) {
+        int n=38;
+        System.out.println(addDigits(n));
+
+    }
+
+    public static int addDigits(int n) {
         int sum = n;
         while (n / 10 > 0) {
             int temp = n;
@@ -13,4 +20,4 @@ class Solution {
         return sum;
     }
 }
-//! Question link (258)-> https://leetcode.com/problems/add-digits/description/
+// ! Question link (258)-> https://leetcode.com/problems/add-digits/description/
