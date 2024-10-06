@@ -42,7 +42,7 @@ public class RomanToInteger {
         Scanner sc = new Scanner(System.in);
         RomanToInteger obj = new RomanToInteger();
         String str = sc.next();
-        System.out.println(obj.romanToInt(str));
+        System.out.println(romanToInt(str));
 
     }
 }
