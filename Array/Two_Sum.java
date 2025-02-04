@@ -17,6 +17,6 @@ public class Two_Sum {
             map.put(arr[i],i);
         }
         System.out.println(ans[0]+" "+ans[1]);
-    }
+    } 
 }
 //! Question link (1)-> https://leetcode.com/problems/two-sum/description/
